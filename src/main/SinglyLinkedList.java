@@ -10,8 +10,11 @@ public class SinglyLinkedList {
         StringBuilder result=new StringBuilder();
 
         result.append("[");
-
-
+Node temp=this.head;
+while(temp!=null) {
+ reult.append(temp.data);
+    temp = temp.next;
+}
         result.append("]");
     }
 
