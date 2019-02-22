@@ -9,5 +9,10 @@ public class SinglyLinkedList {
             this.data = data;
             this.next = next;
         }
+        public Node(int data){
+            this.date=date;
+            this.next=null;
+        }
+
     }
 }
