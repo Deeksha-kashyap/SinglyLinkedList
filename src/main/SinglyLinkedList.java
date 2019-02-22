@@ -1,6 +1,11 @@
 package main;
 
 public class SinglyLinkedList {
+
+    private Node head=null;
+    private int size=0;
+
+
     private static class Node{
      private int data;
      private Node next;
